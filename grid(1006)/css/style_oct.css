@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    font-family: fantasy;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+.container {
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template: repeat(6, 3em)/repeat(6,1fr);
+    grid-gap: 10px;
+}
+
+.container > div {
+    border: 1px solid black;
+    line-height: 3em;
+}
+
+.big {
+    grid-column: 5/span 2;
+    /* grid-column: 5/7; */
+
+    
+    grid-row: 4/span 3;
+    /* grid-row: 4/7; */
+    font-size: 3em;
+    background-color: aqua;
+}
+
+
+.eight {
+    grid-column: 2/3;
+    grid-row: 2/4;
+    font-size: 2em;
+    background-color: antiquewhite;
+}
