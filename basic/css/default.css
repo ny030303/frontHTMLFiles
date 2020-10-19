@@ -1,0 +1,92 @@
+html {
+	font-family: 'Apple SD Gothic Neo', Roboto, 'Noto Sans KR', NanumGothic, 'Malgun Gothic', sans-serif;
+	color: #555;
+	line-height: 1.2;
+	word-wrap: break-word;
+}
+body {
+	background: #eee;
+	-webkit-font-smoothing: antialiased;
+}
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+div, span, article, section, header, footer, aside, p, ul, li, fieldset, legend, label, a, nav, form {
+	box-sizing: border-box;
+	/* content-box */
+}
+ol, ul, li {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+img {
+	max-width: 100%;
+	height: auto;
+	border: 0;
+}
+a {
+	display: inline-block;
+}
+button {
+	border: 0;
+	background: transparent;
+	cursor: pointer;
+}
+
+.flex-container {
+	/* padding: 10px; */
+	background: lightgray;
+	display: flex;
+	/* flex-direction: row; */
+	/* flex-direction: column; */
+	/* flex-direction: row-reverse; */
+	/* flex-direction: column-reverse; */
+	/* height: 50vh; */
+	/* flex-wrap: nowrap;  */
+	/* defult */
+	/* flex-wrap: wrap; */
+	/* flex-wrap: wrap-reverse; */
+
+	/* justify-content: center;
+	justify-content: flex-end; */
+	/* height: 300px;
+	align-items: center;*/
+}
+.flex-item {
+	padding: 10px;
+	border: 3px solid rgb(50,50,40);
+	color: white;
+	background: mediumseagreen;
+}
+
+/*.flex-item {
+	flex-grow: 1;
+} */
+
+.flex-item:nth-child(2) {
+	flex-grow: 3;
+}
+
+/* 
+@media(min-width:600px) {
+	.flex-container {
+		flex-direction: row;
+	}
+
+	.flex-item {
+		flex: 1;
+	}
+} */
