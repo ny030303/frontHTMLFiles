@@ -1,0 +1,130 @@
+/*menu*/
+.menu {
+    display: flex;
+}
+
+.menu-item {
+    background: gold;
+/*    flex-grow: 1;*/
+    width: 25%;
+    transition: 0.5s;
+    
+}
+
+.menu-item:hover {
+    background: crimson;
+/*    flex-grow: 1.5;*/
+    width: 35%;
+}
+
+.menu-link {
+    display: block;
+    padding: 1em;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #555;
+    text-align: center;
+}
+.menu-link:hover {
+    color: white;
+}
+
+/*search*/
+
+.search-form {
+    display: flex;
+    height: 40px;
+}
+.search-form input[type="search"] {
+    flex: 1;
+/*    flex : 1 1 auto;*/
+    font-size: 1rem;
+     border-radius: 0.3em;
+    margin-right: 10px;
+/*    border: 0;*/
+}
+
+.search-form input[type="submit"] {
+    background: gold;
+    border-radius: 0.3em;
+    font-size: 1rem;
+    width: 4em;
+/*    border: 0;*/
+    
+}
+
+/*bullet list*/
+/*
+.info-list {
+    margin-bottom: 2rem;
+}
+*/
+.info-list-item {
+    display: flex;
+    /* 둘(불릿아이콘과 텍스트)을 독립된 공간에 나란히 배치하고싶을때 flex적용 */
+    margin: 0.5em 0;
+}
+
+.info-list-item:before{
+    content: "♞";
+    margin-right: 0.5em;
+}
+
+/* message or user-list */
+.user-item {
+    display: flex;
+    margin-bottom: 1.5em;
+}
+
+.user-photo {
+    flex-shrink: 0;
+    /* 브라우저가 작아져도 flex 아이템 이미지를 줄어들지 않기 위해 */
+    width: 50px;
+    height: 50px;
+    border: 2px solid #333;
+    background-color: gold;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-size: 150%;
+}
+
+/* 텍스트 축약 효과 css 세트 */
+.user-name {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.friend-item {
+    align-items: center;
+}
+
+
+/* modal- 팝업창 만들기 */
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.3);
+}
+
+.dialog {
+    width: 50vw;
+    /* vw (viewport width) 보여지는 브라우저 (창) 사이즈 포트 절반 차지 */
+    background: white;
+    border-radius: 1em;
+    padding: 2em;
+}
+
+
+
+
+
