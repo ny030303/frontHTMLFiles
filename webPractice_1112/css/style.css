@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: #333;
+}
+
+.wrapper {
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header {
+    background-image: url('../images/banner.jpg');
+    padding-bottom: 4em;
+}
+
+#header .inner {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#header .inner > div {
+    margin: 2rem 1rem;
+    
+}
+
+#header .inner a {
+     color: rgba(255,255,255,0.7);
+     font-size: 0.7em;
+}
+
+#header .inner .logo {
+    color: rgba(255,255,255,0.9);
+    font-weight: bold;
+}
+
+#header .inner #nav a  {
+    margin-left: 2em;
+}
+#banner {
+    text-align: center;
+}
+
+#banner  h1 {
+    color: rgba(255,255,255,0.9);
+    font-weight: 300;
+    margin-bottom: 0.7em;
+}
+
+#banner p {
+     color: rgba(255,255,255,0.6);
+    font-size: 0.6em;
+}
+
+#one .inner .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#one .inner .flex article {
+    margin: 3rem 0;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    font-size: 0.8rem;
+}
+
+#one .inner .flex article h3 {
+    color: rgba(94,146, 232, 0.9);
+}
+
+#one .inner .flex article p {
+    color: rgba(183,185,190,0.9);
+    margin: 1rem 0;
+}
+
+#one .inner .flex .middle {
+    border-left: 1px dotted rgba(94,146, 232, 0.8);
+    border-right: 1px dotted rgba(94,146, 232, 0.8);
+}
+
+button {
+    padding: 0.5em 1.2em;
+    background: #5e92e8;
+    border: none;
+    margin: 1rem 0;
+    font-size: 0.7rem;
+    color: white;
+}
+
+button a {
+    color: white;
+}
+
+#two .inner {
+    background: #5e92e8;
+    padding: 2em 0;
+}
+
+#two .inner .title {
+    text-align: center;
+}
+
+
+#two .inner .title h2 {
+    font-size: 1.5em;
+    color: rgba(255,255,255,0.9);
+}
+
+
+
+#two .inner .title p {
+    margin-top: 0.3rem;
+    font-size: 0.5em;
+    color: rgba(255,255,255,0.6);
+}
+
+#two .inner .flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+#two .inner .flex .box {
+    margin: 2rem 1rem;
+    padding: 1rem;
+    border: 1px dotted rgba(255,255,255,0.6);
+}
+
+#two .inner .flex  .box img {
+    min-width: 70%;
+}
+
+#two .inner .flex h3, p {
+    font-size: 0.5em;
+    color: rgba(255,255,255,0.6);
+}
+
+
+footer .icons {
+    display: flex;
+}
+
+.label {
+    display: none;
+}
